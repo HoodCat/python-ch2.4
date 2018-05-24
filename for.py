@@ -26,3 +26,11 @@ for i in range(1, 10):
     for j in range(1, 10):
         print(f'{j} x {i} = {j*i}', end='\t')
     print()
+
+# 삼각형
+for i in range(1, 10):
+    print('*' * i)
+
+# 역삼각형
+for i in range(10, 0, -1):
+    print(' '*(10-i) + '*'*i)
