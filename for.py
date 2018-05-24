@@ -20,3 +20,9 @@ l = [{'name': '둘리', 'age': 10},
 
 for data in l:
     print('이름: %(name)s, 나이: %(age)d' % data)
+
+# 구구단
+for i in range(1, 10):
+    for j in range(1, 10):
+        print(f'{j} x {i} = {j*i}', end='\t')
+    print()
